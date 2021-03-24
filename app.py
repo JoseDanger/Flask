@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 import PAYE
 from flask_cors import CORS
 
-app = Flask(__name__)
+app: Flask = Flask(__name__)
 CORS(app)
 
 
